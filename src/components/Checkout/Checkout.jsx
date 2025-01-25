@@ -40,7 +40,7 @@ export default function Checkout() {
 
     try {
       const response = await axios.post(
-        `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${CartId}?url=http://localhost:5174`,
+        `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${CartId}?url=http://localhost:3000`,
         myForm.values,
         {
           headers: {
