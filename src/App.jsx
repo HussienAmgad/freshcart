@@ -60,7 +60,7 @@ function App() {
         { path: "checkout", element: <ProtectedRoutes><Checkout /></ProtectedRoutes> },
         { path: "about", element: <ProtectedRoutes><About /></ProtectedRoutes> },
         { path: "whishlist", element: <ProtectedRoutes><Whishlist /></ProtectedRoutes> },
-        { path: "orders", element: <ProtectedRoutes><Order /></ProtectedRoutes> },
+        { path: "allorders", element: <ProtectedRoutes><Order /></ProtectedRoutes> },
         { path: "categories", element: <ProtectedRoutes><Categories /></ProtectedRoutes> },
         { path: "brands", element: <ProtectedRoutes><Brands /></ProtectedRoutes> },
         { path: "products", element: <ProtectedRoutes><Products /></ProtectedRoutes> },
