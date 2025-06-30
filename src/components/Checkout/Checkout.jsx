@@ -40,7 +40,7 @@ export default function Checkout() {
 
     try {
       const response = await axios.post(
-        `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${CartId}?url=http://localhost:3000`,
+        `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${CartId}?url=https://freshcart-hussien.vercel.app`,
         myForm.values,
         {
           headers: {
@@ -50,7 +50,7 @@ export default function Checkout() {
       );
 
       if (response.data.status === "success") {
-        window.location.href = "https://freshcart-hussien.vercel.app/orders"; // إعادة التوجيه إلى صفحة الدفع
+window.location.href = response.data.session.url;
       } else {
         console.error("Error:", response.data);
       }
