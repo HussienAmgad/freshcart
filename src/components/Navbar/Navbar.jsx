@@ -87,8 +87,8 @@ export default function Navbar() {
                       <NavLink to="whishlist" className="rounded-md px-2 py-1 text-sm font-medium text-black hover:bg-gray-200 hover:text-black">
                         Whishlist
                       </NavLink>
-                      <NavLink to="orders" className="rounded-md px-2 py-1 text-sm font-medium text-black hover:bg-gray-200 hover:text-black">
-                        orders
+                      <NavLink to="allorders" className="rounded-md px-2 py-1 text-sm font-medium text-black hover:bg-gray-200 hover:text-black">
+                        allorders
                       </NavLink>
                       <NavLink to="categories" className="rounded-md px-2 py-1 text-sm font-medium text-black hover:bg-gray-200 hover:text-black">
                         Categories
@@ -153,8 +153,8 @@ export default function Navbar() {
                 <NavLink to="whishlist" className="block rounded-md px-2 py-1 text-base font-medium text-black hover:bg-gray-200 hover:text-black">
                   Whishlist
                 </NavLink>
-                <NavLink to="orders" className="block rounded-md px-2 py-1 text-base font-medium text-black hover:bg-gray-200 hover:text-black">
-                  orders
+                <NavLink to="allorders" className="block rounded-md px-2 py-1 text-base font-medium text-black hover:bg-gray-200 hover:text-black">
+                  allorders
                 </NavLink>
                 <NavLink to="categories" className="block rounded-md px-2 py-1 text-base font-medium text-black hover:bg-gray-200 hover:text-black">
                   Categories
